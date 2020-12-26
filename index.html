@@ -54,36 +54,52 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Reserve your seat!</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted"></h3>
             </div>
             <form id="contactForm" name="sentMessage" novalidate="novalidate">
                 <div class="row align-items-stretch mb-5">
-                    <div class="col-md-6">
+                    <div class="form-group col-md-6">
                         <div class="form-group">
-                            <input class="form-control" id="name" type="text" placeholder="name *" required="required" data-validation-required-message="Please enter your name." />
+                            <label>First name</label>
+                            <input class="form-control" id="firstname" type="text" />
                         </div>
                         <div class="form-group">
-                            <input class="form-control" id="name" type="text" placeholder="sir name *" required="required" data-validation-required-message="Please enter your sir name." />
+                            <label>Email</label>
+                            <input class="form-control" id="email" type="email" required="required" />
                         </div>
                         <div class="form-group">
-                            <input class="form-control" id="email" type="email" placeholder="email *" required="required" data-validation-required-message="Please enter your email address." />
+                            <label>Company</label>
+                            <input class="form-control" id="company" type="text" />
                         </div>
-                        <div class="form-group mb-md-0">
-                            <input class="form-control" id="phone" type="tel" placeholder="phone number" />
+                        <div class="form-group">
+                            <label>Street</label>
+                            <input class="form-control" id="street" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>City</label>
+                            <input class="form-control" id="city" type="text" />
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="form-group col-md-6">
                         <div class="form-group">
-                            <input class="form-control" id="companyname" type="text" placeholder="company" />
+                            <label>Last name</label>
+                            <input class="form-control" id="lastname" type="text" />
                         </div>
                         <div class="form-group">
-                            <input class="form-control" id="sector" type="text" placeholder="sector" />
+                            <label>Telephone number</label>
+                            <input class="form-control" id="phone" type="tel" />
                         </div>
                         <div class="form-group">
-                            <input class="form-control" id="position" type="text" placeholder="your position at the company" />
+                            <label>Position</label>
+                            <input class="form-control" id="position" type="text" />
                         </div>
-                        <div class="form-group mb-md-0">
-                            <input class="form-control" id="postalcode" type="text" placeholder="postal code *" required="required" data-validation-required-message="Please enter your postalcode." />
+                        <div class="form-group">
+                            <label>NR/ Box</label>
+                            <input class="form-control" id="housenumber" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label>Country</label>
+                            <input class="form-control" id="country" type="text" />
                         </div>
                     </div>
                 </div>
@@ -179,7 +195,7 @@
                             <h4>
                                 Excited?
                                 <br />
-                                <br /> Be there!
+                                <br /> Register now!
                             </h4>
                         </div>
                     </a>
