@@ -8104,7 +8104,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-    margin-bottom: 3rem !important;
+    /* margin-bottom: 3rem !important; */
 }
 
 .ml-5,
@@ -10119,7 +10119,7 @@ p {
 }
 
 .page-section {
-    padding: 6rem 0;
+    padding: 1rem 0;
 }
 
 .page-section h2.section-heading {
